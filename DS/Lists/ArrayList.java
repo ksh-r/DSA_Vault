@@ -1,15 +1,16 @@
 // This code is written by Keshar Wakharkar.
 
 /* Methods:
-Default constructor - To build an empty list.
-Param constructor - To build list of defined length.
-add - To add an element in the list.
-add(index, element) - To add an element at the specified index.
-remove - To remove an element from the given index.
-get - To return an element at specified index.
-size - To return the size of the list.
-isEmpty - To check if list is empty.
-*/
+ * 1. Default constructor - To build an empty list.
+ * 2. Param constructor - To build list of defined length.
+ * 3. add - To add an element in the list.
+ * 4. add(index, element) - To add an element at the specified index.
+ * 5. remove - To remove an element from the given index.
+ * 6. get - To return an element at specified index.
+ * 7. size - To return the size of the list.
+ * 8. isEmpty - To check if list is empty.
+ * 9. print - To print the list.
+ */
 
 // nearest_filling_index - the index just after the last element's index.
 
