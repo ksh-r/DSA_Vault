@@ -1,4 +1,4 @@
-// This code written by Keshar Wakharkar.
+// This code is written by Keshar Wakharkar.
 
 /* Methods:
 Default constructor - To build an empty list.
