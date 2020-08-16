@@ -1,5 +1,5 @@
 # DSA_Vault
-DataStructure and Algorithms programs for all
+DataStructure and Algorithms for all
 
 - ## Data Structures :
   - ### Lists
