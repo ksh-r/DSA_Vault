@@ -1,2 +1,2 @@
 # DSA_Vault
-DataStructure and Algorithms codes for all
+DataStructure and Algorithms programs for all
