@@ -62,7 +62,6 @@ public class ArrayList<T> {
         return list[pos];
     }
     public void print(){
-        System.out.println();
         for(int i = 0; i < nearest_filling_index; i++)
             System.out.print(list[i] + "  ");
         System.out.println();
