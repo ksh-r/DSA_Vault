@@ -37,15 +37,35 @@ public class ArrayList<T> {
             list = Arrays.copyOf(list, list.length*2);
         list[nearest_filling_index++] = element;
     }
-    public void add(T element, int pos){
-        checkPos(pos);
+    public void add(T element, int index){
+        checkPos(index);
         if(nearest_filling_index == list.length)
             list = Arrays.copyOf(list, list.length*2);
-        for(int i = nearest_filling_index-1; i >= pos; i--){
+        for(int i = nearest_filling_index-1; i >= index; i--){
             list[i+1] = list[i];
         }
-        list[pos] = element;
+        list[index] = element;
         nearest_filling_index++;
+    }
+    public Object remove(int pos){
+        checkPos(pos);
+        Object element;
+        element = list[pos];
+        for(int i = pos; i < nearest_filling_index - 1; i++){
+            list[i] = list[i+1];
+        }
+        nearest_filling_index--;
+        return element;
+    }
+    public Object get(int pos){
+        checkPos(pos);
+        return list[pos];
+    }
+    public void print(){
+        System.out.println();
+        for(int i = 0; i < nearest_filling_index; i++)
+            System.out.print(list[i] + "  ");
+        System.out.println();
     }
     private void checkPos(int pos){
         if(pos < 0)
