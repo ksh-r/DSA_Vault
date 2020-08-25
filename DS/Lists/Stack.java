@@ -38,6 +38,7 @@ public class Stack<T> {
         return stack.get(stack.size()-1);
     }
     public void print(){
+        System.out.println("Last in First out format - ");
         for(int i = 0; i < stack.size(); i++){
             System.out.print(stack.get(i) + "  ");
         }
