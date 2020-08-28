@@ -4,9 +4,10 @@
  * Methods :
  * 1. isEmpty()
  * 2. size()
- * 2. push(element)
- * 3. pop()
- * 4. peek()
+ * 3. push(element)
+ * 4. pop()
+ * 5. peek()
+ * 6. print()
  */
 
 package DS.Lists;
